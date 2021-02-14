@@ -1,0 +1,173 @@
+// $border: 1px solid #ccc;
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+  .select {
+
+    margin-left: 320px;
+  }
+
+  .btn {
+    margin-left: 30px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 750px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  thead {
+    tr {
+      background-color: #009879;
+      color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+
+  th {
+    padding: 12px 15px;
+  }
+
+  td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+    text-align: center;
+
+  }
+
+  tbody {
+    tr {
+      &:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+
+      &:last-of-type {
+        border-bottom: 2px solid #009879;
+      }
+    }
+  }
+}
+
+// page form
+.container-2 {
+  max-width: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  text-align: left;
+
+}
+
+.l-part {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 55px;
+
+  p {
+    padding-right: 20px;
+  }
+}
+
+.r-part {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  select {
+    margin-top: 30px;
+  }
+
+  label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+  }
+}
+
+.field {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  
+  label, input, select {
+    width: 50%;
+    float: left;
+  }
+}
+.btn-2 {
+  display: flex;
+  margin-top: 290px;
+
+  input {
+    margin: 10px;
+    background-color: #614caf; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+}
+
+.wrapper {
+  width: 540px;
+
+  .error {
+    background-color: salmon;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .close {
+      width: 20px;
+      height: 20px;
+
+      img {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+}
+
+// function
+.contento {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 750px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  thead {
+    tr {
+      background-color: #893123;
+      color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
